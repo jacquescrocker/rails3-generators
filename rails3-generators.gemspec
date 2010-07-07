@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jose Valim", "Anuj Dutta", "Paul Berry", "Jeff Tucker", "Louis T.", "Jai-Gouk Kim", "Darcy Laycock"]
-  s.date = %q{2010-06-13}
-  s.description = %q{Rails 3 compatible generators for DataMapper, Haml, Factory-girl, Authlogic, Mongomapper and Machinist}
+  s.date = %q{2010-07-06}
+  s.description = %q{Rails 3 compatible generators for Haml and Factory-girl}
   s.email = %q{andre@arko.net}
   s.extra_rdoc_files = [
     "README.rdoc"
@@ -33,10 +33,6 @@ Gem::Specification.new do |s|
      "lib/generators/haml/scaffold/templates/layout.haml.erb",
      "lib/generators/haml/scaffold/templates/new.haml.erb",
      "lib/generators/haml/scaffold/templates/show.haml.erb",
-     "lib/generators/machinist.rb",
-     "lib/generators/machinist/model/model_generator.rb",
-     "lib/generators/machinist/model/templates/blueprint.rb",
-     "lib/generators/machinist/model/templates/machinist_initializer.rb",
      "lib/rails3-generators.rb",
      "rails3-generators.gemspec"
   ]
